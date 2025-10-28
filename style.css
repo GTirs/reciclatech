@@ -2,4 +2,116 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  background-color: #f0fdf4;
+}
+
+#navbar {
+  display: inline;
+  justify-content: space-between;
+  padding-top: 31px;
+  padding-left: 37px;
+  width: 1106px;
+  height: 60px;
+}
+
+#logo {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  border: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+#lista {
+  list-style: none;
+  text-align: center;
+}
+
+.li {
+  display: inline-block;
+  justify-content: right;
+  position: relative;
+  left: 250px;
+  top: -50px;
+  margin: 0px 20px;
+}
+
+.botao-canto {
+  background-color: transparent;
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  top: 10px;
+  right: 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.botao-canto:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  transform: scale 0.8;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  filter: blur(0.3);
+}
+
+.linha {
+  width: 95%;
+  margin: 35px;
+  padding: 0px;
+  display: inline-block;
+  top: -10px;
+}
+
+main {
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+  min-width: 320px;
+}
+
+.Banner-1 {
+  margin: 70px;
+  position: absolute;
+  top: 200px;
+  left: -20px;
+}
+
+.Banner-2 {
+  margin: 0px;
+  position: absolute;
+  top: 230px;
+  right: 100px;
+}
+
+.btn-main-1 {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 379px;
+  left: -225px;
+}
+
+.btn-main-1:hover {
+  cursor: pointer;
+}
+
+.btn-main-2 {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 379px;
+  left: -100px;
+}
+
+.btn-main-2:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
